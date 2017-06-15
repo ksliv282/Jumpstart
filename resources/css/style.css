@@ -1,0 +1,134 @@
+body, html {
+  font-size: 14px;
+  font-family: "Open Sans", "Helvetica", sans-serif;
+}
+.image-container {
+  overflow: hidden;
+
+}
+.image-container img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+}
+h2 {
+  font-size: 1.75rem;
+}
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.explore {
+  color: #399bd1;
+}
+.button {
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+  width: 11.4rem;
+  padding: 1.3rem 0;
+  margin: 2.8rem auto 0 auto;
+  text-align: center;
+}
+.button:hover {
+  box-shadow: 0 0 12px rgba(0,0,0,0.9);
+}
+.button:active {
+  box-shadow: 0 0 rgba(0,0,0,0.5);
+}
+.jumbotron {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  height: 51.4rem;
+  outline: none;
+  text-align: center;
+}
+
+#jumbotron-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
+}
+
+#jumbotron-beer {
+  background-image: url("../images/jumbotron-beer.jpg");
+}
+
+#jumbotron-flowers {
+  background-image: url("../images/jumbotron-flowers.jpg");
+}
+
+#jumbotron-duffel {
+  background-image: url("../images/jumbotron-duffel.jpg");
+}
+
+.jumbotron h1 {
+  font-size: 7.1rem;
+  font-family: Monoton;
+  padding-top: 11.85rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-transform: uppercase;
+}
+
+.jumbotron p {
+  max-width: 51.3rem;
+  margin: auto;
+  padding-bottom: 18.45rem;
+}
+
+#button-wrapper {
+  position: relative;
+  bottom: 22.85rem;
+}
+
+@media only screen and (max-width: 750px) {
+  .jumbotron h1 {
+    font-size: 5.7rem;
+  }
+
+  .jumbotron p {
+    margin: auto 1rem;
+  }
+
+  #button-wrapper {
+    bottom: 18rem;
+  }
+}
+
+/* Featured section */
+
+#featured h2 {
+  margin-bottom: 20px;
+}
+
+#featured ul {
+  color: rgba(0,0,0,0.7);
+  line-height: 1.4em;
+}
+
+
+/* Projects section */
+
+#projects {
+  margin-bottom: 5.85rem;
+}
+
+
+/* Having trouble/footer section */
+
+footer {
+  background-color: #f3f3f3;
+  padding: 5.2rem 1rem;
+  text-align: center;
+}
+
+footer strong {
+  font-size: 2.5rem;
+}
+
+footer p {
+  max-width: 42rem;
+  margin: auto;
+  margin-top: 1.4rem;
+}
